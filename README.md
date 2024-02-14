@@ -24,6 +24,8 @@ This project aims to demonstrate an end-to-end data science pipeline for trainin
   - **logger.py**: Logging configuration.
   - **utils.py**: Utility functions.
 - **notebook/**: Contains Jupyter notebooks for exploratory data analysis (EDA) or other analyses.
+  - **eda.txt**: Notebook for Exploratory Data Analysis.
+  - **model_training.txt**: Notebook for Model Training.
 - **requirements.txt**: List of Python dependencies.
 - **setup.py**: Python package setup file.
 - **README.md**: Project overview and instructions.
@@ -49,12 +51,13 @@ If you encounter any issues during project execution or experiment tracking, ref
 - Debug your code locally to identify and resolve any errors or issues.
 - Consult the project documentation and community resources for additional assistance.
 
+
 bash  = '
 
 export MLFLOW_TRACKING_URI=https://dagshub.com/Pradhyumn1/sudent_data_insights.mlflow 
 
 export MLFLOW_TRACKING_USERNAME=Pradhyumn1 
 
-export MLFLOW_TRACKING_PASSWORD=9668024cdf3cab6718afb606d69ebde8f71b7dcf
+export MLFLOW_TRACKING_PASSWORD=9668024cdf3cab6718afb6006d69ebde8f71b7dcf688b
 
 '
