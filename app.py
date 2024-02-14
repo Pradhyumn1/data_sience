@@ -15,15 +15,15 @@ if __name__=="__main__":
     try:
         # Add debugging statements here
         mlflow_tracking_uri = "https://dagshub.com/Pradhyumn1/sudent_data_insights.mlflo"
-        mlflow_tracking_username = "Pradhyumn1"
-        mlflow_tracking_password = "9668024cdf3cab6718afb606d69ebde8f71b7dcf"
+        # mlflow_tracking_username = "Pradhyumn1"
+        # mlflow_tracking_password = "9668024cdf3cab6718afb606d69ebde8f71b7dcf"
 
-        print("MLflow Tracking URI:", mlflow_tracking_uri)
-        print("MLflow Tracking Username:", mlflow_tracking_username)
-        print("MLflow Tracking Password:", mlflow_tracking_password)
+        # print("MLflow Tracking URI:", mlflow_tracking_uri)
+        # print("MLflow Tracking Username:", mlflow_tracking_username)
+        # print("MLflow Tracking Password:", mlflow_tracking_password)
 
-        mlflow.set_registry_uri(mlflow_tracking_uri)
-        mlflow.set_tracking_uri(mlflow_tracking_uri)
+        # mlflow.set_registry_uri(mlflow_tracking_uri)
+        # mlflow.set_tracking_uri(mlflow_tracking_uri)
 
         
         #data_ingestion_config=DataIngestionConfig()
@@ -41,4 +41,4 @@ if __name__=="__main__":
         
     except Exception as e:
         logging.info("Custom Exception")
-        raise CustomException(e,sys)
+        raise #CustomException(e,sys)
