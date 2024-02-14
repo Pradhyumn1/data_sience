@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/pradhyumnyadav/Desktop/untitled%20folder%203/mlruns/0/49de89079ec1475791eec9e7988c166c/artifacts
+end_time: 1707897332374
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 49de89079ec1475791eec9e7988c166c
+run_name: enthused-mole-529
+run_uuid: 49de89079ec1475791eec9e7988c166c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1707897330863
+status: 3
+tags: []
+user_id: pradhyumnyadav

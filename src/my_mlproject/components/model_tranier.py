@@ -24,7 +24,7 @@ from src.my_mlproject.utils import save_object,evaluate_models
 
 
 @dataclass
-class ModelTrainerConfig:    
+class ModelTrainerConfig:
     trained_model_file_path=os.path.join("artifacts","model.pkl")
 
 class ModelTrainer:
@@ -117,7 +117,7 @@ class ModelTrainer:
 
             best_params = params[actual_model]
 
-            mlflow.set_registry_uri("https://dagshub.com/Pradhyumn1/sudent_data_insights.mlflow")
+            mlflow.set_registry_uri("https://dagshub.com/Pradhyumn1/sudent_data_insights.mlflo")
             tracking_url_type_store = urlparse(mlflow.get_tracking_uri()).scheme
 
             # mlflow
